@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from django.utils.translation import gettext as _
 
-
 class Post(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField
